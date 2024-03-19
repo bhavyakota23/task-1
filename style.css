@@ -1,0 +1,151 @@
+/* CSS for Header */
+marquee {
+  font-size: 50px;
+  text-decoration: underline;
+  color: #333a73;
+  text-decoration-color: #201658;
+}
+
+body {
+  background-image: url("photo-1507608158173-1dcec673a2e5.avif");
+}
+.hcontent {
+  text-align: center;
+  margin-top: 40px; /* Adjust as needed */
+  /*border: 10px solid blue;*/
+}
+
+.title h1 {
+  background-color: #7469b6;
+  border-radius: 10px;
+  color: white;
+  font-weight: 1000;
+  padding: 10px 20px;
+  display: inline-block; /* Ensures the background color fits around the text */
+  font-size: 35px;
+}
+
+p {
+  margin: 20px auto; /* Center paragraph horizontally */
+  max-width: 500px; /* Adjust as needed */
+  font-weight: 700;
+}
+/* CSS for Main Content */
+.leadershipteam {
+  text-align: center;
+  margin-top: 5px; /* Adjust as needed */
+  /*border: 10px solid red;*/
+}
+
+.leadershipteam h2 {
+  font-size: 30px; /* Adjust as needed */
+  /*border: 5px solid yellow;*/
+}
+
+#button1,
+#button2,
+#button3 {
+  background-color: #7469b6;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+/* CSS for Images */
+.image-container {
+  display: inline-block;
+  margin: 0 20px; /* Adjust as needed */
+  vertical-align: top; /* Align containers at the top */
+}
+.image-container img {
+  height: 100px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
+  display: block; /* Ensure names appear below images */
+  margin: 0 auto 10px; /* Center images horizontally and add space below */
+  border-radius: 50%; /* Makes the images circular */
+}
+
+.image-container h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Adjust as needed */
+}
+
+.image-container h4 {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Adjust as needed */
+  color: white; /* Adjust as needed */
+}
+.Developmentteam {
+  text-align: center;
+  margin-top: 5px;
+  /*border: 6px dashed purple;*/
+}
+.Developmentteam h2 {
+  font-size: 30px;
+}
+.Development.image-container {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+.Development .image-container img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+}
+.Development .image-container h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.Development .image-container h4 {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+.row1D,
+.row2D {
+  margin-top: 20px;
+}
+/* CSS for Sales and Marketing Team Section */
+.salesteam {
+  text-align: center;
+  margin-top: 40px; /* Adjust as needed */
+}
+
+.salesteam h2 {
+  font-size: 30px; /* Adjust as needed */
+}
+
+/* CSS for Images in Sales and Marketing Team */
+.Sales .image-container {
+  display: inline-block;
+  margin: 0 20px; /* Adjust as needed */
+  vertical-align: top; /* Align containers at the top */
+}
+
+.Sales .image-container img {
+  height: 100px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
+  display: block; /* Ensure names appear below images */
+  margin: 0 auto 10px; /* Center images horizontally and add space below */
+  border-radius: 50%; /* Makes the images circular */
+}
+
+.Sales .image-container h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Adjust as needed */
+}
+
+.Sales .image-container h4 {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Adjust as needed */
+  color: white; /* Adjust as needed */
+}
+
+/* CSS for Rows in Sales and Marketing Team */
+.row1S,
+.row2S {
+  margin-top: 20px; /* Add some space between rows */
+}
